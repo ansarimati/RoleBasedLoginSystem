@@ -4,6 +4,9 @@ password:PassMe123
 
 mongodb+srv://svastir:PassMe123@cluster0.ccad973.mongodb.net/?retryWrites=true&w=majority
 
+commands to start the project
+for server : nodemon index
+for client : npm start
 
 testing:
 

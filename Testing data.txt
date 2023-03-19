@@ -1,0 +1,34 @@
+svastirTest 
+username:svastir
+password:PassMe123
+
+mongodb+srv://svastir:PassMe123@cluster0.ccad973.mongodb.net/?retryWrites=true&w=majority
+
+
+testing:
+
+admin
+{
+    "userName": "ansari",
+    "password": "passme",
+    "role": "admin"
+}
+
+user
+{
+    "userName": "mati",
+    "password": "passme"
+
+}
+
+//  WE CAN ADD THIS MIIDLEWARE IN API WHICH ARE RESPONSIBLE FOR FURTHER FUCNTIONALITY WHICH DONE AFTER LOGIN
+//  WE SEND TOKEN FROM FRONTEND LIKE "Bearer + Token"
+//  AT BACKEND WE REMOVED THE WORD "Bearer" FROM TOKEN
+//  VERIFY THE TOKEN IF TOKEN IS VALID THEN next() WILL ALLOW API TO RESPONSE
+//  IF TOKEN NOT VALID THEN API WILL SEND A MESSAGE IN RESPONSE AS "Access Denied"
+
+
+
+
+
+
